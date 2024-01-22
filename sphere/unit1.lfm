@@ -1,0 +1,130 @@
+object Form1: TForm1
+  Left = 240
+  Height = 937
+  Top = 548
+  Width = 1280
+  HorzScrollBar.Page = 1000
+  VertScrollBar.Page = 916
+  AutoScroll = True
+  Caption = 'Form1'
+  ClientHeight = 937
+  ClientWidth = 1280
+  OnActivate = UpdateAll
+  LCLVersion = '3.0.0.3'
+  object Label1: TLabel
+    Left = 32
+    Height = 16
+    Top = 12
+    Width = 126
+    Caption = 'Radius of sphere (m)'
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 16
+    Top = 40
+    Width = 215
+    Caption = 'Height above surface of sphere (m)'
+  end
+  object Label3: TLabel
+    Left = 448
+    Height = 16
+    Top = 12
+    Width = 239
+    Caption = 'Distance of observer from window (cm)'
+  end
+  object Label4: TLabel
+    Left = 448
+    Height = 16
+    Top = 40
+    Width = 133
+    Caption = 'Width of window (cm)'
+  end
+  object Label5: TLabel
+    Left = 448
+    Height = 16
+    Top = 64
+    Width = 137
+    Caption = 'Height of window (cm)'
+  end
+  object Label6: TLabel
+    Left = 448
+    Height = 16
+    Top = 88
+    Width = 134
+    Caption = 'Resolution (pixels/cm)'
+  end
+  object DistanceLabel: TLabel
+    Left = 33
+    Height = 16
+    Top = 64
+    Width = 142
+    Caption = 'Distance to horizon (m)'
+  end
+  object RadiusLabel: TLabel
+    Left = 32
+    Height = 16
+    Top = 88
+    Width = 130
+    Caption = 'Radius of horizon (m)'
+  end
+  object EditSphereRadiusInMeters: TEdit
+    Left = 296
+    Height = 22
+    Top = 12
+    Width = 80
+    TabOrder = 0
+    Text = '6371000'
+    OnChange = UpdateAll
+  end
+  object EditHeightAboveSphereInMeters: TEdit
+    Left = 296
+    Height = 22
+    Top = 35
+    Width = 80
+    TabOrder = 1
+    Text = '1'
+    OnChange = UpdateAll
+  end
+  object EditDistanceFromWIndowInCentimeters: TEdit
+    Left = 709
+    Height = 22
+    Top = 12
+    Width = 80
+    TabOrder = 2
+    Text = '25'
+    OnChange = UpdateAll
+  end
+  object EditWidthOfWindowInCentimeters: TEdit
+    Left = 709
+    Height = 22
+    Top = 35
+    Width = 80
+    TabOrder = 3
+    Text = '21'
+    OnChange = UpdateAll
+  end
+  object EditHeightOfWindowInCentimeters: TEdit
+    Left = 709
+    Height = 22
+    Top = 58
+    Width = 80
+    TabOrder = 4
+    Text = '21'
+    OnChange = UpdateAll
+  end
+  object EditResolutionInPixelsPerCentimeter: TEdit
+    Left = 709
+    Height = 22
+    Top = 81
+    Width = 80
+    TabOrder = 5
+    Text = '50'
+    OnChange = UpdateAll
+  end
+  object Image1: TImage
+    Left = 31
+    Height = 796
+    Top = 120
+    Width = 969
+  end
+end
