@@ -10,7 +10,7 @@ Let the height of the observer above the Earth's surface be a (for altitude) and
 
 Now consider the following diagram:
 
-<img src="diagram.png" width="500px" />
+<img src="diagram.png" width="400px" />
 
 By construction, the line OB is tangent to the sphere and so the triangle △OBC is a right-angled triangle with |OC| = S + a and |BC| = S. By the Pythgorean theorem, then, |OB| = √(2Sa + a²)
 
