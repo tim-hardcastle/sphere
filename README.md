@@ -44,7 +44,7 @@ And so given S and a, if we parameterize our circle by an angle θ in degrees ra
 
 It would be easy to do a perpective rendition of this but there's a slight snag. We'd like to see what happens when you take off from the sphere and go up. But in order to do that the observer is going to have to direct their gaze further and further down, otherwise they'll lose sight of the horizon.
 
-If we ave our observer always center their gaze on the point on the horizon directly ahead of them, and if we continue to choose their direction of gaze as our y-axis, then this is eqivalent to rotating the circle of the horizon through an angle φ (seee diagram) around the x-axis.
+If we have our observer always center their gaze on the point on the horizon directly ahead of them, and if we continue to choose their direction of gaze as our y-axis, then this is eqivalent to rotating the circle of the horizon through an angle φ (seee diagram) around the x-axis.
 
 By simple trigonometry, φ = cos⁻¹ (|BC| / |OC|); that is to say, φ = cos⁻¹ (S / (S + a)).
 
