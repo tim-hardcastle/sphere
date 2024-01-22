@@ -60,7 +60,7 @@ Now we just need to draw it in perspective. This is easy, the Renaissance artist
 
 Then the line given by the points λ(x₂, y₂, z₂) for a given θ intersects the plane just when λy₂ = F,  i.e. lambda = F / y₂.
 
-So this gives us a set of equations for the points on the perpective plane corresponding to the points on the horizon:
+So this gives us a set of equations for the points on the perspective plane corresponding to the points on the horizon:
 
 * x₃(θ) = x₂(θ) * F / y₂(θ)
 * y₃(θ) = F
