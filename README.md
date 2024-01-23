@@ -58,7 +58,7 @@ That, then, is the equation of the horizon if you always look directly at the mi
 
 Now we just need to draw it in perspective. This is easy, the Renaissance artists knew how to do it. We will put a flat plane a distance F in front of our observer, perpendicular to his direction of gaze, and trace where each line from a point on the horizon to the eye of the observer intersects the plane.
 
-Then the line given by the points λ(x₂, y₂, z₂) for a given θ intersects the plane just when λy₂ = F,  i.e. lambda = F / y₂.
+Then the line given by the points λ(x₂, y₂, z₂) for a given θ intersects the plane just when λy₂ = F,  i.e. λ = F / y₂.
 
 So this gives us a set of equations for the points on the perspective plane corresponding to the points on the horizon:
 
