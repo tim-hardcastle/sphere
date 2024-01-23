@@ -68,7 +68,7 @@ So this gives us a set of equations for the points on the perspective plane corr
 
 Are we there yet? Not quite.
 
-The figure F represents how far the obseerver is sitting behind their observation window, but doesn't tell us how big it is. Let the window have width W and height H. So when plotting the points of our parametric equation above, we'll only plot the points where -W/2 =< x₃ =< W/2 and  H/2 =< z₃ =< H/2. (We must also have F <= y₂ or we'd be drawing things *behind* our perspective plane.)
+The figure F represents how far the obseerver is sitting behind their observation window, but doesn't tell us how big it is. Let the window have width W and height H. So when plotting the points of our parametric equation above, we'll only plot the points where -W/2 =< x₃ =< W/2 and  -H/2 =< z₃ =< H/2. (We must also have F <= y₂ or we'd be drawing things *behind* our perspective plane.)
 
 I have made the default window 21 cm wide, since this is apparently the width of a passenger window on a 737.
 
