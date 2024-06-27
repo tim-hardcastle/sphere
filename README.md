@@ -2,6 +2,8 @@
 
 This app simulates what it would be like to be on or above a sphere of a given size, at a given height, looking out of a window of a given size.
 
+<img src="horizon" width="400px" />
+
 This README explains how the math works.
 
 So, first of all, let's get a formula for the horizon in three-dimensional space. We will take the POV of the observer as the point of origin (0, 0, 0) for our coordinate system, because we can and because it makes the math easier. The observer's direction of gaze will be along the y-axis for the same reason.
