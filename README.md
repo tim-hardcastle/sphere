@@ -2,7 +2,7 @@
 
 This app simulates what it would be like to be on or above a sphere of a given size, at a given height, looking out of a window of a given size.
 
-<img src="horizon" width="400px" />
+<img src="horizon.jpg" width="600px" />
 
 This README explains how the math works.
 
